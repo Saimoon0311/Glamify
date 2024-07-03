@@ -1,0 +1,151 @@
+import {StyleSheet} from 'react-native';
+import {Colors, FontFamily, FontSize} from '@/Theme/Variables';
+
+const styles = StyleSheet.create({
+  mainContainer: {flex: 1, backgroundColor: Colors.white},
+  mainSubContainer: {
+    height: 150,
+    justifyContent: 'space-around',
+    paddingHorizontal: 20,
+  },
+  subContainerHeading: {
+    fontFamily: FontFamily.semiBold,
+    fontSize: FontSize.medium - 2,
+    color: Colors.heading,
+    fontWeight: '600',
+  },
+  icon: {
+    width: 10,
+    height: 10,
+    resizeMode: 'contain',
+    tintColor: Colors.gray,
+  },
+  time: {
+    fontFamily: FontFamily.semiBold,
+    fontSize: FontSize.small,
+    color: Colors.heading,
+    opacity: 0.6,
+    fontWeight: '600',
+  },
+  desc: {
+    fontFamily: FontFamily.regular,
+    color: Colors.black,
+    fontWeight: '400',
+    paddingRight: 25,
+    paddingTop: 10,
+    fontSize: FontSize.small + 1,
+  },
+  countContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingTop: 10,
+  },
+  clientText: {
+    fontFamily: FontFamily.semiBold,
+    color: Colors.heading,
+    fontWeight: '600',
+    fontSize: FontSize.medium - 2,
+  },
+  btnContainer: {
+    flexDirection: 'row',
+    width: 96,
+    height: 32,
+    backgroundColor: '#F3F3F3',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    // borderRadius: 5,
+  },
+  btn: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: 32,
+    height: 32,
+  },
+  minusBtn: {width: 10, height: 2, backgroundColor: Colors.heading},
+  count: {
+    fontSize: FontSize.medium,
+    fontWeight: '600',
+    color: Colors.heading,
+    fontFamily: FontFamily.semiBold,
+  },
+  plus: {
+    fontSize: FontSize.large,
+    fontWeight: '600',
+    color: Colors.heading,
+    fontFamily: FontFamily.semiBold,
+  },
+  scrollContainer: {
+    flex: 1,
+    backgroundColor: Colors.white,
+    paddingHorizontal: 20,
+  },
+  addText: {
+    fontSize: FontSize.medium + 2,
+    fontWeight: '600',
+    color: Colors.heading,
+    fontFamily: FontFamily.semiBold,
+  },
+  scroll: {paddingVertical: 10},
+  cardContainer: {
+    height: 100,
+    backgroundColor: Colors.pink,
+    marginBottom: 10,
+    // borderRadius: 15,
+    padding: 10,
+    justifyContent: 'space-around',
+  },
+  subContainer: {flexDirection: 'row', justifyContent: 'space-between'},
+  cardHeading: {
+    color: Colors.heading,
+    fontWeight: '600',
+    fontFamily: FontFamily.semiBold,
+  },
+  cardCheckBoxContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  cardPrice: {
+    marginRight: 10,
+    color: Colors.heading,
+    fontWeight: '600',
+    fontFamily: FontFamily.semiBold,
+  },
+  checkBoxIcon: {borderRadius: 0, borderColor: '#231F2080'},
+  cardDesc: {
+    color: Colors.heading,
+    fontWeight: '400',
+    fontFamily: FontFamily.regular,
+    fontSize: FontSize.small,
+  },
+  footer: {
+    height: 120,
+    alignItems: 'center',
+    backgroundColor: Colors.pink,
+    justifyContent: 'space-evenly',
+    // marginTop: 10,
+  },
+  footerSubTotal: {
+    color: Colors.heading,
+    fontWeight: '600',
+    fontFamily: FontFamily.semiBold,
+    fontSize: FontSize.medium,
+  },
+  submitBtn: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 50,
+    backgroundColor: Colors.heading,
+    // borderRadius: 30,
+    width: '80%',
+  },
+  submitTitle: {
+    color: Colors.white,
+    fontWeight: '600',
+    fontFamily: FontFamily.semiBold,
+    fontSize: FontSize.medium,
+  },
+});
+
+export default styles;
